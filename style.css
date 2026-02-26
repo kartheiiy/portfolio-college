@@ -841,6 +841,15 @@ section {
     gap: 0.9rem;
 }
 
+.projects-grid-single {
+    grid-template-columns: minmax(280px, 760px);
+    justify-content: center;
+}
+
+.projects-grid-duo {
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+}
+
 .work-card {
     display: flex;
     flex-direction: column;
@@ -1007,6 +1016,57 @@ section {
     }
     50% {
         transform: translateY(4px);
+    }
+}
+
+@media (min-width: 1051px) and (max-width: 1366px) {
+    .about-layout {
+        grid-template-columns: 0.95fr 1.05fr;
+        gap: 1rem;
+    }
+
+    .about-photo,
+    .about-story {
+        padding: 2.2rem;
+    }
+
+    .about-photo img {
+        aspect-ratio: 4 / 4.85;
+        object-position: center 18%;
+    }
+
+    .about-story p {
+        font-size: 1.58rem;
+        line-height: 1.74;
+    }
+
+    .about-tags span {
+        font-size: 1.16rem;
+        padding: 0.46rem 0.76rem;
+    }
+
+    .stat-box h4 {
+        font-size: 1.8rem;
+    }
+
+    .about-values {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .value-card {
+        padding: 1.5rem;
+    }
+
+    .value-card h4 {
+        font-size: 1.72rem;
+    }
+
+    .timeline-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .timeline-item:last-child {
+        grid-column: 1 / -1;
     }
 }
 
