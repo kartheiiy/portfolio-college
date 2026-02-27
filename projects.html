@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Works by Karthik Chandra.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Karthik Portfolio | Works</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo logo-home" aria-label="Karthik Chandra Home">
+      <span class="logo-mark">K</span>
+      <span class="logo-name">Karthik <strong>Chandra</strong></span>
+    </a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" class="active">Works</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="works-page">
+      <div class="section-head reveal" data-delay="0">
+        <p class="eyebrow">Selected Works</p>
+        <h2 class="heading">Projects with <span>real-world intent</span></h2>
+        <p class="lead">Each project was built to solve practical problems while improving performance, usability, and scalability.</p>
+      </div>
+
+      <div class="projects-grid projects-grid-duo">
+        <article class="work-card card reveal" data-delay="80">
+          <div class="work-thumb work-thumb--terrascope">
+            <img src="terrascope.png" alt="Terrascope project screenshot" loading="eager" decoding="async" width="2560" height="1440">
+          </div>
+          <h3>Terrascope</h3>
+          <p>Interactive climate visualization platform for NASA Space Apps challenge, combining storytelling with Earth data insights.</p>
+          <div class="tech-list">
+            <span>3D Visualization</span>
+            <span>Data Storytelling</span>
+            <span>Web Experience</span>
+          </div>
+          <a href="https://terrascope-nasa-space-app-challange.vercel.app/" class="btn btn-primary">Open Project</a>
+        </article>
+
+        <article class="work-card card reveal" data-delay="130">
+          <div class="work-thumb work-thumb--calculator">
+            <img src="online-calculator.svg" alt="Online Calculator project cover image" loading="lazy" decoding="async">
+          </div>
+          <h3>Online Calculator</h3>
+          <p>A clean and responsive web calculator for quick day-to-day arithmetic with smooth interactions and instant results across desktop and mobile.</p>
+          <div class="tech-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="https://calculator-demo-mu.vercel.app/" class="btn btn-primary">Open Project</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer reveal" data-delay="100">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a href="index.html" class="logo logo-home footer-logo" aria-label="Karthik Chandra Home">
+          <span class="logo-mark">K</span>
+          <span class="logo-name">Karthik <strong>Chandra</strong></span>
+        </a>
+        <p class="footer-text">AI enthusiast and developer building practical, user-focused digital products.</p>
+      </div>
+
+      <div class="footer-links">
+        <p class="footer-title">Quick Links</p>
+        <div class="footer-link-grid">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Works</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <p class="footer-title">Contact</p>
+        <a href="mailto:karthikchandra23@gmail.com">karthikchandra23@gmail.com</a>
+        <a href="tel:+918113962361">+91 8113962361</a>
+        <div class="social-row footer-social">
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/kartheiiy" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/kartheiiy/" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Karthik Chandra. All rights reserved.</p>
+      <a href="#" class="to-top">Back to top <i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <script defer src="script.js"></script>
+</body>
+
+</html>
