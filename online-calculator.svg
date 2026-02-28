@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Calculator poster cover">
+  <defs>
+    <pattern id="hexPattern" width="180" height="156" patternUnits="userSpaceOnUse">
+      <polygon points="45,0 135,0 180,78 135,156 45,156 0,78" fill="none" stroke="#c8ccc7" stroke-width="6"/>
+    </pattern>
+    <linearGradient id="screenCalc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171a29"/>
+      <stop offset="100%" stop-color="#1e2133"/>
+    </linearGradient>
+    <linearGradient id="calcCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e43"/>
+      <stop offset="100%" stop-color="#262a3e"/>
+    </linearGradient>
+    <linearGradient id="btnDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b4258"/>
+      <stop offset="100%" stop-color="#31384d"/>
+    </linearGradient>
+    <linearGradient id="btnOp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3c33f"/>
+      <stop offset="100%" stop-color="#e3ad25"/>
+    </linearGradient>
+    <linearGradient id="historyCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2b2f45"/>
+      <stop offset="100%" stop-color="#262a3e"/>
+    </linearGradient>
+    <linearGradient id="eqBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4dcd3d"/>
+      <stop offset="100%" stop-color="#3dbb30"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#ece9e8"/>
+  <rect x="0" y="0" width="320" height="1000" fill="url(#hexPattern)"/>
+  <rect x="1280" y="0" width="320" height="1000" fill="url(#hexPattern)"/>
+
+  <text x="800" y="98" text-anchor="middle" font-family="Brush Script MT, Segoe Script, cursive" font-size="84" fill="#5f4b3f">math utility website</text>
+  <text x="800" y="178" text-anchor="middle" font-family="Sora, Manrope, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="5" fill="#aa7f69">CALCULATOR</text>
+
+  <rect x="430" y="240" width="740" height="492" rx="28" fill="#090909"/>
+  <rect x="464" y="276" width="672" height="408" rx="8" fill="url(#screenCalc)"/>
+  <circle cx="800" cy="256" r="6" fill="#252525"/>
+  <rect x="464" y="276" width="672" height="408" rx="8" fill="url(#screenCalc)"/>
+  <circle cx="1082" cy="296" r="15" fill="#2e3448"/>
+  <circle cx="1094" cy="296" r="11" fill="#f0f3f8"/>
+  <circle cx="1072" cy="296" r="4" fill="#f0c64d"/>
+
+  <rect x="510" y="332" width="286" height="330" rx="24" fill="url(#calcCard)" stroke="#3a3f58" stroke-width="1.5"/>
+  <rect x="524" y="352" width="258" height="70" rx="14" fill="#222638"/>
+  <text x="760" y="392" text-anchor="end" font-family="Manrope, Arial, sans-serif" font-size="56" font-weight="700" fill="#f2f6ff">0</text>
+
+  <g font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+    <rect x="524" y="436" width="60" height="52" rx="18" fill="#2f3c4e"/><text x="554" y="470" fill="#f2f6ff">C</text>
+    <rect x="592" y="436" width="60" height="52" rx="18" fill="#2f3c4e"/><text x="622" y="470" fill="#f2f6ff">⌫</text>
+    <rect x="660" y="436" width="60" height="52" rx="18" fill="#2f3c4e"/><text x="690" y="470" fill="#f2f6ff">%</text>
+    <rect x="728" y="436" width="60" height="52" rx="18" fill="url(#btnOp)"/><text x="758" y="470" fill="#ffffff">÷</text>
+
+    <rect x="524" y="496" width="60" height="52" rx="18" fill="url(#btnDark)"/><text x="554" y="530" fill="#f2f6ff">7</text>
+    <rect x="592" y="496" width="60" height="52" rx="18" fill="url(#btnDark)"/><text x="622" y="530" fill="#f2f6ff">8</text>
+    <rect x="660" y="496" width="60" height="52" rx="18" fill="url(#btnDark)"/><text x="690" y="530" fill="#f2f6ff">9</text>
+    <rect x="728" y="496" width="60" height="52" rx="18" fill="url(#btnOp)"/><text x="758" y="530" fill="#ffffff">×</text>
+
+    <rect x="524" y="556" width="60" height="52" rx="18" fill="url(#btnDark)"/><text x="554" y="590" fill="#f2f6ff">4</text>
+    <rect x="592" y="556" width="60" height="52" rx="18" fill="url(#btnDark)"/><text x="622" y="590" fill="#f2f6ff">5</text>
+    <rect x="660" y="556" width="60" height="52" rx="18" fill="url(#btnDark)"/><text x="690" y="590" fill="#f2f6ff">6</text>
+    <rect x="728" y="556" width="60" height="52" rx="18" fill="url(#btnOp)"/><text x="758" y="590" fill="#ffffff">−</text>
+
+    <rect x="524" y="616" width="60" height="40" rx="16" fill="url(#btnDark)"/><text x="554" y="643" fill="#f2f6ff">1</text>
+    <rect x="592" y="616" width="60" height="40" rx="16" fill="url(#btnDark)"/><text x="622" y="643" fill="#f2f6ff">2</text>
+    <rect x="660" y="616" width="60" height="40" rx="16" fill="url(#btnDark)"/><text x="690" y="643" fill="#f2f6ff">3</text>
+    <rect x="728" y="616" width="60" height="40" rx="16" fill="url(#btnOp)"/><text x="758" y="643" fill="#ffffff">+</text>
+
+    <rect x="524" y="668" width="128" height="34" rx="15" fill="url(#btnDark)"/><text x="588" y="691" fill="#f2f6ff">0</text>
+    <rect x="660" y="668" width="60" height="34" rx="15" fill="url(#btnDark)"/><text x="690" y="691" fill="#f2f6ff">.</text>
+    <rect x="524" y="706" width="196" height="24" rx="12" fill="url(#eqBar)"/><text x="622" y="723" font-size="26" fill="#ffffff">=</text>
+  </g>
+
+  <rect x="824" y="332" width="264" height="260" rx="24" fill="url(#historyCard)" stroke="#3a3f58" stroke-width="1.5"/>
+  <text x="848" y="370" font-family="Manrope, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ff">History</text>
+  <text x="1048" y="370" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700" fill="#ff5f55">Clear</text>
+  <line x1="844" y1="386" x2="1064" y2="386" stroke="#3a3f58" stroke-width="1.5"/>
+  <text x="956" y="492" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="34" font-style="italic" fill="#9aa5bb">No history yet</text>
+
+  <rect x="700" y="732" width="200" height="22" rx="11" fill="#9a6d58"/>
+  <rect x="330" y="754" width="940" height="30" rx="15" fill="#d8d0cc"/>
+  <rect x="340" y="784" width="920" height="5" rx="3" fill="#9e8779"/>
+
+  <text x="800" y="880" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="9" fill="#59493f">THIS WEBSITE IS USED FOR FAST</text>
+  <text x="800" y="935" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="9" fill="#59493f">DAILY CALCULATIONS WITH EASE.</text>
+</svg>
