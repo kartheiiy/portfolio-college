@@ -652,6 +652,20 @@ section {
     margin-bottom: 1.15rem;
 }
 
+.home-featured .featured-body .btn.btn-primary {
+    align-self: flex-start;
+    padding: 0.86rem 1.55rem;
+    font-size: 1.32rem;
+    font-weight: 700;
+    border-radius: 999px;
+    letter-spacing: 0.005em;
+    box-shadow: 0 10px 20px rgba(43, 101, 255, 0.22);
+}
+
+.home-featured .featured-body .btn.btn-primary:hover {
+    box-shadow: 0 14px 26px rgba(43, 101, 255, 0.3);
+}
+
 .home-cta {
     display: flex;
     align-items: center;
